@@ -61,4 +61,22 @@ to be filled
 
 #HSLIDE
 
+to be filled
+<table>
+  <tr>
+    <td>10-100x faster than network/disk, but how to achieve <span style="color:#0b8ff2;text-align:left">F</span>ault <span style="color:#0b8ff2;text-align:left">T</span>olerence</td>
+    </tr>
+   </table>
+
+#HSLIDE
+
+style="color:#0b8ff2;text-align:left">Challenge </span>?
+
+#HSLIDE
+
+"How to design a distributed memory abstraction that is both <span style="color:#0b8ff2;text-align:left">Fault-Tolerant</span> and <span style="color:#0b8ff2;text-align:left">Efficient</span> ?" 
+
+#HSLIDE
+
+
 
