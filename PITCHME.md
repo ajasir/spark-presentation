@@ -16,11 +16,12 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 MapReduce greatly simplified “big data” analysis on large, unreliable clusters 
 
 But as soon as it got popular, users wanted more:
-*Complex application that often has multiple Map Reduce Stages
+
+* Complex application that often has multiple Map Reduce Stages
 
     (eg :- Iterative machine learning algorithms  & Iterative graph alogrithms)
     
-*Interactive data mining. 
+* Interactive data mining. 
 
 
 #HSLIDE
