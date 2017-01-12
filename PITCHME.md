@@ -1,6 +1,6 @@
-#<span style="color:#0b8ff2">R</span>esilient
-#<span style="color:#0b8ff2">D</span>istributed
-#<span style="color:#0b8ff2">D</span>atasets
+#<span style="color:#0b8ff2;text-align:left">R</span>esilient 
+#<span style="color:#0b8ff2;text-align:left">D</span>istributed
+#<span style="color:#0b8ff2;text-align:left">D</span>atasets
 
 A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 
