@@ -36,3 +36,5 @@ Efficient primitives for <span style="color:#0b8ff2;text-align:left">Data Sharin
 
 Unfortunately, in MapReduce, the only way to share data across jobs is stable storage such as dfs, which is slow ! |
 
+#HSLIDE
+
