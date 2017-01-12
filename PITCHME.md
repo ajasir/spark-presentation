@@ -78,5 +78,35 @@ style="color:#0b8ff2;text-align:left">Challenge </span>?
 
 #HSLIDE
 
+There are many in-memory storage abstractions for clusters such as  RAMCloud, Piccolo etc..
 
+Still we are not using these. <span style="color:#0b8ff2;text-align:left">Why</span> ?
+
+* It has interfaces(programming) based on fine-grained updates to mutable states
+
+* In all these systems, we got a table of cells, and  we can go read and write any cells in that table
+ 
+* So in order to provide fault tolerance, we require to, either
+        * replicate data in cell level
+        * keep logs across nodes => larger I/O operations
+        
+<table>
+  <tr>
+    <td>This in turn cause expensiveness in data-intensive application and 10 to 100x slower than memory write</td>
+    </tr>
+   </table>
+ 
+ #HSLIDE  
+   "How can we have <span style="color:#0b8ff2;text-align:left">Fault-Tolerance</span> in memory storage systems without <span style="color:#0b8ff2;text-align:left">Replication</span> ?" 
+
+ #HSLIDE 
+ 
+ <span style="color:#0b8ff2;text-align:left"> Solution</span>
+ 
+  #HSLIDE 
+  
+   <span style="color:#0b8ff2;text-align:left">R</span>esilient <span style="color:#0b8ff2;text-align:left">D</span>istributed <span style="color:#0b8ff2;text-align:left">D</span>atasets
+   
+  #HSLIDE   
+ 
 
