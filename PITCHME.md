@@ -26,7 +26,7 @@ But as soon as it got popular, users wanted more:
 
 #HSLIDE
 
-Why Not <span style="color:#0b8ff2;text-align:left">Map Reduce</span> ?
+# Why Not <span style="color:#0b8ff2;text-align:left">Map Reduce</span> ?
 
 #HSLIDE
 
@@ -53,7 +53,7 @@ to be filled
 
 #HSLIDE
 
-<span style="color:#0b8ff2;text-align:left">Goal: In-Memory Data Sharing </span>
+# <span style="color:#0b8ff2;text-align:left">Goal: In-Memory Data Sharing </span>
 
 #HSLIDE
 
@@ -70,7 +70,7 @@ to be filled
 
 #HSLIDE
 
-style="color:#0b8ff2;text-align:left">Challenge </span>?
+<span style="color:#0b8ff2;text-align:left">Challenge </span>?
 
 #HSLIDE
 
@@ -87,8 +87,8 @@ Still we are not using these. <span style="color:#0b8ff2;text-align:left">Why</s
 * In all these systems, we got a table of cells, and  we can go read and write any cells in that table
  
 * So in order to provide fault tolerance, we require to, either
-        * replicate data in cell level
-        * keep logs across nodes => larger I/O operations
+     * replicate data in cell level
+     * keep logs across nodes => larger I/O operations
         
 <table>
   <tr>
