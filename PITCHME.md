@@ -17,7 +17,10 @@ MapReduce greatly simplified “big data” analysis on large, unreliable cluste
 
 But as soon as it got popular, users wanted more:
 *Complex application that often has multiple Map Reduce Stages
+
     (eg :- Iterative machine learning algorithms  & Iterative graph alogrithms)
+    
 *Interactive data mining. 
+
 
 #HSLIDE
