@@ -1,14 +1,14 @@
 #HSLIDE
 
-#<span style="color:#0b8ff2;text-align:left">R</span>esilient 
-#<span style="color:#0b8ff2;text-align:left">D</span>istributed
-#<span style="color:#0b8ff2;text-align:left">D</span>atasets
+# <span style="color:#0b8ff2;text-align:left">R</span>esilient 
+# <span style="color:#0b8ff2;text-align:left">D</span>istributed
+# <span style="color:#0b8ff2;text-align:left">D</span>atasets
 <hr>
 A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 
 #HSLIDE
 
-#<span style="color:#0b8ff2;text-align:left">Map Reduce</span>
+# <span style="color:#0b8ff2;text-align:left">Map Reduce</span>
 
 
 #HSLIDE
@@ -26,4 +26,6 @@ But as soon as it got popular, users wanted more:
 
 #HSLIDE
 
-# Why Not Map Reduce ?
+# Why Not <span style="color:#0b8ff2;text-align:left">Map Reduce</span> ?
+
+#HSLIDE
