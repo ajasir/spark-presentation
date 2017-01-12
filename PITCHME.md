@@ -30,9 +30,9 @@ But as soon as it got popular, users wanted more:
 
 #HSLIDE
 
-Complex apps and interactive queries both  need one thing that MapReduce lacks:
+Complex apps and interactive queries both need one thing that MapReduce lacks:
 
 Efficient primitives for <span style="color:#0b8ff2;text-align:left">Data Sharing</span>
 
-Unfortunately, in MapReduce, the only way to share data across jobs is stable storage such as dfs, which is slow !
--------------------------------------------------------------------------------------------------------------------
+Unfortunately, in MapReduce, the only way to share data across jobs is stable storage such as dfs, which is slow ! |
+
