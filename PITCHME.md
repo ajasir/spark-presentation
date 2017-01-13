@@ -184,5 +184,13 @@ But <span style="color:#0b8ff2;text-align:left">How</span> general/good is  <spa
 
 #HSLIDE
 
+# <span style="color:#0b8ff2;text-align:left">Spark</span>
+
+#HSLIDE
+
+For implementing RDD, Spark is built.
+Spark provides a simple programing interface for RDDs
+Definition
+Apache Spark is an open source parallel processing framework that enables users to run large-scale data analytics applications across clustered computers.
 
 
