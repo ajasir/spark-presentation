@@ -226,6 +226,64 @@ Spark programming Interfaces provides the following:
 #HSLIDE
 
 <span style="color:#0b8ff2;text-align:left">Scenario</span>
+Suppose you have a large log file on cluster and you are going to find some patterns on it
 
+<span style="color:#0b8ff2;text-align:left">Working Model</span>
+On cluster you have master node and worker nodes. Master node is used for typing our commands, job scheduling, tracking lineage for the data sets etc..
+
+<span style="color:#0b8ff2;text-align:left">Spark Context</span>
+The door to Spark represents the connection to a Spark execution environment
 
 #HSLIDE
+
+# <span style="color:#0b8ff2;text-align:left">Code</span>
+
+#HSLIDE
+
+to be filled
+
+#HSLIDE
+
+All transformations in Spark are lazy, in that they do not compute their results right away. 
+
+Instead, they just remember the transformations applied to some base data set. 
+
+The transformations are only computed when an action requires a result to be returned to  the driver program
+
+So nothing will be happend on cluster unless we call an action
+
+Now we call an action in above program.
+
+#HSLIDE
+
+to be filled
+
+when this action called
+
+master will look where the data is on the cluster and send tasks to worker nodes
+
+Node will compute the action and send back the results like mapreduce
+
+But the nodes will save it in the memory instead of hdfs file system (persist the action rdd, which contains the result)
+
+Next time if you do any actions on the same RDD, it will hit on the memory and get back the result much faster
+
+#HSLIDE
+
+# <span style="color:#0b8ff2;text-align:left">Speed</span>
+
+#HSLIDE
+
+How <span style="color:#0b8ff2;text-align:left">speed</span> is this ?
+
+Full-text search of wikipedia data of 50GB on 20 machines
+* spark takes < 1s
+    * Hadoop takes 20 seconds for the same
+If scaled to ITB data on 100 machines
+    * Hadoop took 170 seconds
+* spark took 5-7 seconds
+
+#HSLIDE
+
+<span style="color:#0b8ff2;text-align:left">Thank You</span>
+
