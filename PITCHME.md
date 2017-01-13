@@ -188,9 +188,43 @@ But <span style="color:#0b8ff2;text-align:left">How</span> general/good is  <spa
 
 #HSLIDE
 
-For implementing RDD, Spark is built.
-Spark provides a simple programing interface for RDDs
-Definition
+* For implementing RDD, Spark is built.
+* Spark provides a simple programing interface for RDDs
+<span style="color:#0b8ff2;text-align:left">Definition</span>
 Apache Spark is an open source parallel processing framework that enables users to run large-scale data analytics applications across clustered computers.
+
+#HSLIDE
+
+<span style="color:#0b8ff2;text-align:left">Features</span>
+
+* Written in Scala,Python and Java
+* Support Linux, Mac OS, Windows
+* Spark provides an interactive Scala and Python interpreter
+* It can process data from a variety of data repositories
+    * Hadoop Distributed File System (HDFS)
+    * NoSQL databases and relational data stores
+* Supports in-memory processing & conventional disk-based processing (data sets are too large to fit into the memory)
+
+#HSLIDE
+
+<span style="color:#0b8ff2;text-align:left">Spark Programming Interfaces</span> 
+
+#HSLIDE
+
+Spark programming Interfaces provides the following:
+
+* RDD
+* Operations on RDD
+    * Transformations - build new RDDs
+    * Actions - compute and output results
+
+
+#HSLIDE
+
+<span style="color:#0b8ff2;text-align:left">Example - Log mining</span>
+
+#HSLIDE
+
+<span style="color:#0b8ff2;text-align:left">Scenario</span>
 
 
