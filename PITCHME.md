@@ -30,7 +30,7 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 <p style="text-align:left; border:solid 1px red; padding: 25px;">Unfortunately, in MapReduce, the only way to share data across jobs is stable storage such as dfs, which is <span style="color:#0b8ff2"><b>slow</b></span> ! </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
     
 #HSLIDE
-![Map Reduce data sharing diagram ](../images/mapreduce_datasharing.jpg)
+![Map Reduce data sharing diagram ](https://github.com/ajasir/spark-presentation/blob/master/images/mapreduce_datasharing.jpg)
 <p style="text-align:left; border:solid 1px red; padding: 10px;"> <span style="color:#0b8ff2"><b>Slow</b></span> due to replication and disk I/O, but necessary for fault tolerance </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
@@ -38,7 +38,7 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 <hr>
 
 #HSLIDE
-![In Memory Data Sharing ](/home/557920/Documents/Training Material/Spark/images/in-memmory.jpg)
+![In Memory Data Sharing ](https://github.com/ajasir/spark-presentation/blob/master/images/in-memmory.jpg)
 <p style="text-align:left; border:solid 1px red; padding: 10px;">10-100x faster than network/disk, but how to achieve <span style="color:#0b8ff2;text-align:left"><b>Fault Tolerence</b></span> </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
@@ -118,13 +118,13 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 <hr>
 
 #HSLIDE
-![RDD Recovery](/home/557920/Documents/Training Material/Spark/images/lineage.jpg)
+![RDD Recovery](https://github.com/ajasir/spark-presentation/blob/master/images/lineage.jpg)
 
 #HSLIDE
-![RDD Recovery](/home/557920/Documents/Training Material/Spark/images/lineage_failure1.jpg)
+![RDD Recovery](https://github.com/ajasir/spark-presentation/blob/master/images/lineage_failure1.jpg)
 
 #HSLIDE
-![RDD Recovery](/home/557920/Documents/Training Material/Spark/images/lineage_failure2.jpg)
+![RDD Recovery](https://github.com/ajasir/spark-presentation/blob/master/images/lineage_failure2.jpg)
 
 #HSLIDE
 ## <span style="color:#0b8ff2;text-align:left">Generality of RDDs</span>
