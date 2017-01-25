@@ -71,7 +71,7 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 
 #HSLIDE
 ##<span style="color:#0b8ff2;text-align:left">R</span>esilient <span style="color:#0b8ff2;text-align:left">D</span>istributed <span style="color:#0b8ff2;text-align:left">D</span>atasets
-<hr>
+
 
 #HSLIDE
 <p style="text-align:left">/rɪˈzɪlɪənt/</p>
@@ -93,6 +93,7 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 
 #VSLIDE
 ##<span style="color:#0b8ff2;text-align:left">Granularity</span>
+<hr>
 
 #VSLIDE
 * Granularity  is the extent to which a material or system is composed of distinguishable pieces or grains. 
@@ -114,6 +115,7 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 
 #HSLIDE
 ##<span style="color:#0b8ff2;text-align:left">RDD Recovery</span>
+<hr>
 
 #HSLIDE
 ![RDD Recovery](/home/557920/Documents/Training Material/Spark/images/lineage.jpg)
