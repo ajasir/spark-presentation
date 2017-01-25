@@ -30,7 +30,7 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 <p style="text-align:left; border:solid 1px red; padding: 25px;">Unfortunately, in MapReduce, the only way to share data across jobs is stable storage such as dfs, which is <span style="color:#0b8ff2"><b>slow</b></span> ! </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
     
 #HSLIDE
-![Map Reduce data sharing diagram ](/home/557920/Documents/Training Material/Spark/images/mapreduce_datasharing.jpg)
+![Map Reduce data sharing diagram ](../images/mapreduce_datasharing.jpg)
 <p style="text-align:left; border:solid 1px red; padding: 10px;"> <span style="color:#0b8ff2"><b>Slow</b></span> due to replication and disk I/O, but necessary for fault tolerance </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
