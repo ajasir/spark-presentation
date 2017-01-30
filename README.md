@@ -2,9 +2,9 @@
 
 Motivation
 ==========
-MapReduce program simplified big data analytics.  People need more complex application that often has multiple Map Reduce Stages such as Iterative machine learning algorithm and iterative graph alogrithms. Other thing they want to do is Interactive data mining, Interactive queries. 
+MapReduce program simplified big data analytics greatly. Along with its growth, people need more complex application that often has multiple Map Reduce Stages such as Iterative machine learning algorithm and iterative graph alogrithms to be done in near real time. Other thing they want to do is Interactive data mining and Interactive queries. 
 
-But map reduce programs are slow due to replication and I/O storage since these are very essential for fault tolerence - don't want to loose the data. As a solution we have in-memory data sharing mechanism which is 10-100x faster than network/disk but how to achieve fault tolerence using this ? So the challenge is "How to design a distributed memory abstraction that is both fault-tolerence and efficient ?" 
+But map reduce framework is not designed to do the above jobs. Also map reduce programs are slow due to replication and I/O storage since these are very essential for fault tolerence - don't want to loose the data. As a solution we have in-memory data sharing mechanism which is 10-100x faster than network/disk but how to achieve fault tolerence using this ?.  So the challenge is "How to design a distributed memory abstraction that is both fault-tolerence and efficient ?" 
 
 There are many in-memory storage abstractions for clusters such as RAMCloud,Piccolo etc..( still we are not recommending these. why ?)  But one thing that makes it hard for these to be really fast is an Existing storage abstractions that have interfaces(programming) based on fine-grained updates to mutable states. In all these systems, we got a table of cells, and we can go read and write any cells in that table.  So in order to provide fault tolerence, we require to, either replicate data (in cell level) or we should keep a logs across nodes which means larger I/O operations. This in turn cause expensiveness in data-intensive application and 10 to 100x slower than memory write
 
