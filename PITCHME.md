@@ -1,9 +1,9 @@
-##<span style="color:#0b8ff2">R</span>esilient <span style="color:#0b8ff2">D</span>istributed <span style="color:#0b8ff2">D</span>atasets
+## <span style="color:#0b8ff2">R</span>esilient <span style="color:#0b8ff2">D</span>istributed <span style="color:#0b8ff2">D</span>atasets
 <hr>
 A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Map Reduce</span>
+## <span style="color:#0b8ff2;text-align:left">Map Reduce</span>
 <hr>
 
 #HSLIDE
@@ -34,7 +34,7 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 <p style="text-align:left; border:solid 1px red; padding: 10px;"> <span style="color:#0b8ff2"><b>Slow</b></span> due to replication and disk I/O, but necessary for fault tolerance </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Goal: In-Memory Data Sharing </span>
+## <span style="color:#0b8ff2;text-align:left">Goal: In-Memory Data Sharing </span>
 <hr>
 
 #HSLIDE
@@ -42,11 +42,11 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 <p style="text-align:left; border:solid 1px red; padding: 10px;">10-100x faster than network/disk, but how to achieve <span style="color:#0b8ff2;text-align:left"><b>Fault Tolerence</b></span> </p>  <!-- .element: class="fragment" data-fragment-index="1" -->
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Challenge </span>?
+## <span style="color:#0b8ff2;text-align:left">Challenge </span>?
 <hr>
 
 #HSLIDE
-####"How to design a distributed memory abstraction that is both <span style="color:#0b8ff2;text-align:left">Fault-Tolerant</span> and <span style="color:#0b8ff2;text-align:left">Efficient</span> ?" 
+#### "How to design a distributed memory abstraction that is both <span style="color:#0b8ff2;text-align:left">Fault-Tolerant</span> and <span style="color:#0b8ff2;text-align:left">Efficient</span> ?" 
 
 #HSLIDE
 <p style="text-align:left">There are many in-memory storage abstractions for clusters such as  RAMCloud, Piccolo etc..</p>
@@ -63,14 +63,14 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 <p style="text-align:left; border:solid 1px red; padding: 10px;">  This in turn cause expensiveness in data-intensive application and 10 to 100x slower than memory write </p> <!-- .element: class="fragment" data-fragment-index="3" -->
  
 #HSLIDE
-####"How can we have <span style="color:#0b8ff2;text-align:left">Fault-Tolerance</span> in memory storage systems without <span style="color:#0b8ff2;text-align:left">Replication</span> ?" 
+#### "How can we have <span style="color:#0b8ff2;text-align:left">Fault-Tolerance</span> in memory storage systems without <span style="color:#0b8ff2;text-align:left">Replication</span> ?" 
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left"> Solution</span>
+## <span style="color:#0b8ff2;text-align:left"> Solution</span>
 <hr>
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">R</span>esilient <span style="color:#0b8ff2;text-align:left">D</span>istributed <span style="color:#0b8ff2;text-align:left">D</span>atasets
+## <span style="color:#0b8ff2;text-align:left">R</span>esilient <span style="color:#0b8ff2;text-align:left">D</span>istributed <span style="color:#0b8ff2;text-align:left">D</span>atasets
 
 
 #HSLIDE
@@ -92,7 +92,7 @@ A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 Coarse-grained operations are applied to all of the elements in the dataset at once.
 
 #VSLIDE
-##<span style="color:#0b8ff2;text-align:left">Granularity</span>
+## <span style="color:#0b8ff2;text-align:left">Granularity</span>
 <hr>
 
 #VSLIDE
@@ -103,7 +103,7 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Fault Tolerence</span>
+## <span style="color:#0b8ff2;text-align:left">Fault Tolerence</span>
 <hr>
 
 #HSLIDE
@@ -114,7 +114,7 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 * No cost if nothing fails
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">RDD Recovery</span>
+## <span style="color:#0b8ff2;text-align:left">RDD Recovery</span>
 <hr>
 
 #HSLIDE
@@ -139,10 +139,10 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 
 
 #HSLIDE
-####"So we understood <span style="color:#0b8ff2;text-align:left"><b>RDD</b></span> is very useful since it is very general. But how do we implement <span style="color:#0b8ff2;text-align:left"><b>RDD</b></span>?"
+#### "So we understood <span style="color:#0b8ff2;text-align:left"><b>RDD</b></span> is very useful since it is very general. But how do we implement <span style="color:#0b8ff2;text-align:left"><b>RDD</b></span>?"
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Spark</span>
+## <span style="color:#0b8ff2;text-align:left">Spark</span>
 <hr>
 
 #HSLIDE
@@ -153,7 +153,7 @@ Coarse-grained operations are applied to all of the elements in the dataset at o
 Apache Spark is an open source parallel processing framework that enables users to run large-scale data analytics applications across clustered computers.
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Features</span>
+## <span style="color:#0b8ff2;text-align:left">Features</span>
 <hr>
 
 #HSLIDE
@@ -166,7 +166,7 @@ Apache Spark is an open source parallel processing framework that enables users 
 * Supports in-memory processing & conventional disk-based processing (data sets are too large to fit into the memory)
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Spark Programming Interfaces</span> 
+## <span style="color:#0b8ff2;text-align:left">Spark Programming Interfaces</span> 
 <hr>
 
 #HSLIDE
@@ -181,11 +181,11 @@ Apache Spark is an open source parallel processing framework that enables users 
 
 
 #HSLIDE
-##Example - <span style="color:#0b8ff2;text-align:left">Log mining</span>
+## Example - <span style="color:#0b8ff2;text-align:left">Log mining</span>
 <hr>
 
 #HSLIDE
-####Suppose you have a large log file on cluster and you are going to find some patterns on it
+#### Suppose you have a large log file on cluster and you are going to find some patterns on it
 
 #HSLIDE
 <p style="text-align:left"><span style="color:#0b8ff2;text-align:left"><b>Working Model</b></span></p>
@@ -194,7 +194,7 @@ Apache Spark is an open source parallel processing framework that enables users 
 <p style="text-align:left">The door to Spark represents the connection to a Spark execution environment</p>
 
 #HSLIDE
-##<span style="color:#0b8ff2;text-align:left">Code</span>
+## <span style="color:#0b8ff2;text-align:left">Code</span>
 <hr>
 
 #HSLIDE
@@ -269,7 +269,7 @@ message.filter(_.contains("foo")).count
 <hr>
 
 #HSLIDE
-####<p style="text-align:left"><span style="color:#0b8ff2;text-align:left">References</span></p>
+#### <p style="text-align:left"><span style="color:#0b8ff2;text-align:left">References</span></p>
 <hr>
 * https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia
 * http://spark.apache.org/docs/latest/
